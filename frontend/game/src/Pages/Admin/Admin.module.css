@@ -1,0 +1,89 @@
+.container{
+    min-height: 800px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.containerAddGame{
+    position: fixed ;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+.boxAddGame{
+    background-color: rgb(255, 255, 255);
+    border: black solid;
+    border-radius: 20px;
+    height: 700px;
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boxInputAddGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xExit{
+    margin: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+.textAddGame{
+    font-size: 20px;
+}
+.InputAddGame{
+    width: 300px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.preview{
+    width: auto;
+    max-width: 300px;
+    height: 200px; 
+}
+.boxPreview{
+    border: black solid 5px;
+    width: 300px;
+    height: 200px; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxReserve{
+    background-color: white;
+    height: 180px;
+    border: black solid 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.smallBoxReserve{
+    padding: 20px;
+}
+.textHeadReserve{
+   margin-top: -20px; 
+}
+.buttonReserve{
+    margin-top: 20px;
+}

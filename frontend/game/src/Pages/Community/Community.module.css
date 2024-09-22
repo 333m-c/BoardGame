@@ -1,0 +1,152 @@
+.container{
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    width: 700px;
+    height: auto;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: rgb(252, 157, 15) solid;
+    color: white;
+    margin: 20px;
+}
+.profile{
+    height: 60px;
+    width: auto;
+    border-radius: 100%;
+    border: black solid;
+
+}
+.boxProfile{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.textName{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.textDate{
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.boxContext{
+    margin: 20px;
+    margin-left: 30px;
+    width: 630px;
+    height: 75px;
+    display: flex;
+}
+.commentBox{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.466);
+}
+.context{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boxForPost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 100px;
+    background-color: orange;
+}
+.inputarea{
+    height: 50px;
+    width: 700px;
+}
+.boxfrom{
+    position: relative;
+}
+.submit{
+    position: absolute;
+    top: 40%;
+    right: 50px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+@media (max-width:775px){
+    .box{
+        width: 450px;
+        height: 150px;
+        min-height: 100px;
+        justify-content: center;
+        align-items: center;
+        border: rgb(252, 157, 15) solid;
+        color: white;
+        margin: 20px;
+    }
+    .elementPost{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 775px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .textName{
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif   ;
+    }
+    .textDate{
+        margin-left: 10px;
+        color: rgba(255, 255, 255, 0.699);
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif   ;
+    }
+    .profile{
+        height: 50px;
+        width: auto;
+        border-radius: 100%;
+        border: black solid;
+    
+    }
+    .boxContext{
+        margin: 20px;
+        margin-left: 30px;
+        width: 630px;
+        height: 75px;
+        display: flex;
+        font-size: 10px;
+    }
+    .boxForPost{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 490px;
+        height: 100px;
+        background-color: orange;
+    }
+    .inputarea{
+        height: 50px;
+        width: 430px;
+    }
+    .boxfrom{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .submit{
+        position: absolute;
+        top: 40%;
+        right: 190px;
+        border: solid black 2px;
+        border-radius: 5px;
+    }
+}

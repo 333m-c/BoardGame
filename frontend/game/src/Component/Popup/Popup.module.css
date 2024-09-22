@@ -1,0 +1,229 @@
+.bigContainer{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    top: 0%;
+}
+.container{
+    width: 800px;
+    height: 620px;
+    background-color: rgb(255, 130, 28);
+    border: black solid;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 2000;
+    position: relative;
+}
+.boxContainer{
+    background-color: rgb(255, 130, 28);
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.685);
+    width: 200px;
+    height: 50px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.616);
+}
+.boxFull{
+    background-color: rgb(255, 0, 0);
+    border: solid rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.685);
+    width: 200px;
+    height: 50px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    color: #000;
+    font-size: 20px;
+    background: rgb(0, 107, 41);
+    border: black solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.button:hover{
+    background: rgba(0, 107, 41, 0.733);
+}
+.countBox{
+    position: absolute;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right: 30px;
+    top: 0px;
+    color: #ffffff;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelDate{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+.date{
+    font-size: 20px;
+}
+.submitDate{
+    font-size: 20px;
+    background-color: rgb(41, 163, 194);
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.xExit{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    font-size: 20px;
+    border: 0px;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+@media (max-width:810px){
+    .boxFull{
+        background-color: rgb(255, 0, 0);
+        border: solid rgba(0, 0, 0, 0.685);
+        border-radius: 10px;
+        color: rgba(0, 0, 0, 0.685);
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 750px;
+        height: 500px;
+        background-color: rgb(255, 130, 28);
+        border: black solid;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 2000;
+        position: relative;
+    }
+}
+@media (max-width:720px){
+    .container{
+        width: 600px;
+        height: 700px;
+        background-color: rgb(255, 130, 28);
+        border: black solid;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 2000;
+        position: relative;
+        margin-top: -150px;
+    }
+    .countBox{
+        position: absolute;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        right: 30px;
+        top: 15px;
+        color: #ffffff;
+    }
+}
+@media (max-width:560px){
+    .container{
+        width: 600px;
+        height: 550px;
+        background-color: rgb(255, 130, 28);
+        border: black solid;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 2000;
+        position: relative;
+        margin-top: -150px;
+    }
+    .button{
+        color: #000;
+        font-size: 20px;
+        background: rgb(0, 107, 41);
+        border: black solid;
+        border-radius: 5px;
+        width: 75px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .boxFull{
+        background-color: rgb(255, 0, 0);
+        border: solid rgba(0, 0, 0, 0.685);
+        border-radius: 10px;
+        color: rgba(0, 0, 0, 0.685);
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .countBox{
+        position: absolute;
+        font-size: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        right: 30px;
+        top: 22px;
+        color: #ffffff;
+    }
+}
+@media (max-width:420px){
+    .labelDate{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 20px;
+    }
+}
+@media (max-width:390px){
+    .labelDate{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 20px;
+    }
+}

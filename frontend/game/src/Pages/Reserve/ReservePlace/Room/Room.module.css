@@ -1,0 +1,71 @@
+.container{
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    height: 350px;
+    width: 400px;
+    background-color: rgb(255, 132, 18);
+    border: solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 50px;
+    display:block;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+}
+.box:hover{
+    background-color: white;
+}
+.bigbox:hover{
+    animation-name: movebox;
+    animation-duration: 1s;
+    margin-top: -50px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    height: 220px;
+    margin: 20px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.left{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back{
+    position: absolute;
+    left: 30px;
+    top:100px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes movebox{
+    0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: -50px;
+    }
+}
