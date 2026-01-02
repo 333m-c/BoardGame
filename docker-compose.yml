@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: boardgame-backend
+    ports:
+      - "1234:1234"
+    environment:
+      - PORT=1234
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend/game
+    container_name: boardgame-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
