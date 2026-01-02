@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: game:latest
+          image: 333m/boardgame-frontend:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80

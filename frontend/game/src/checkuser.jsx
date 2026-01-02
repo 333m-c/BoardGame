@@ -5,7 +5,7 @@ export default async function checkuser() {
     const token ={
         token:document.cookie
       }
-      const data = await fetch('http://backend:1234',{
+      const data = await fetch('http://localhost:1234',{
         method:"POST",
         headers:{
             'Content-Type': 'application/json'
