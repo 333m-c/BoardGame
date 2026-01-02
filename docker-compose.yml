@@ -17,6 +17,7 @@ services:
       - "1234:1234"
     environment:
       - PORT=1234
+      - db=mongodb://mongo:27017/
     restart: unless-stopped
     depends_on:
       - mongo

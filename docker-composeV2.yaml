@@ -19,6 +19,7 @@ services:
     restart: unless-stopped
     depends_on:
       - mongo
+      - db=mongo
 
   frontend:
     image: game:latest
